@@ -29,8 +29,8 @@ def resize_and_compress_image(input_path, output_path, max_width, max_height, qu
 # Example usage
 if __name__ == "__main__":
     # Define input and output paths
-    input_image = "my_photo.jpg"  # Replace with your input file
-    output_image = "optimized_image.jpg"  # Replace with your output file
+    input_image = "award.jpg"  # Replace with your input file
+    output_image = "award.jpg"  # Replace with your output file
 
     # Set maximum dimensions and quality level
     max_width = 1024  # Maximum width in pixels
