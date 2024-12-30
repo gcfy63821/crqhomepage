@@ -16,6 +16,12 @@
       border-radius: 50%;
       margin-bottom: 1rem;
     }
+    .side-img {
+      width: 2521px;
+      height: 1378px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
     .project, .publication {
       margin-bottom: 1.5rem;
     }
@@ -46,29 +52,41 @@
   </section>
 
   <!-- Publications Section -->
-  <section class="section">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">Publications</h2>
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered">Publications</h2>
 
-      <div class="publication">
-        <div class="card">
-          <header class="card-header">
-            <p class="card-header-title">Whole-Body Model Predictive Control for Mobile Manipulation with Task Priority Transition</p>
-          </header>
-          <div class="card-content">
-            <div class="content">
-              Developed a Whole-Body Model Predictive Control (WBMPC) framework to manage task 
-              priorities and scheduling in multi-task mobile manipulation scenarios. Integrated task priorities 
-              into a unified weight matrix, enabling smooth transitions across tasks in both spatial and temporal
-               dimensions.
-               <a href="https://yushiws.github.io/wbmpc/" target="_blank">Link</a>.
+    <div class="publication">
+      <div class="card">
+        <div class="card-content">
+          <div class="media">
+            <!-- Image Section -->
+            <div class="media-left">
+              <figure class="side-img">
+                <img src="static/images/wbmpc.png" alt="Publication Image">
+              </figure>
+            </div>
+            <!-- Text Section -->
+            <div class="media-content">
+              <div class="content">
+                <p class="title is-4">Whole-Body Model Predictive Control for Mobile Manipulation with Task Priority Transition</p>
+                <p>
+                  Developed a Whole-Body Model Predictive Control (WBMPC) framework to manage task 
+                  priorities and scheduling in multi-task mobile manipulation scenarios. Integrated task priorities 
+                  into a unified weight matrix, enabling smooth transitions across tasks in both spatial and temporal
+                  dimensions.
+                  <a href="https://yushiws.github.io/wbmpc/" target="_blank">Link</a>.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
-  </section>
+
+  </div>
+</section>
+
 
   <!-- Projects Section -->
   <section class="section">
