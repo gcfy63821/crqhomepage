@@ -21,7 +21,7 @@ def convert_to_ico(input_path, output_path):
 
 # Example usage
 if __name__ == "__main__":
-    input_image_path = "2.png"  # Replace with your input image path
-    output_ico_path = "page_icon.ico"   # Replace with your desired output path
+    input_image_path = "3.png"  # Replace with your input image path
+    output_ico_path = "icon.ico"   # Replace with your desired output path
 
     convert_to_ico(input_image_path, output_ico_path)

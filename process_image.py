@@ -19,7 +19,8 @@ def resize_and_compress_image(input_path, output_path, max_width, max_height, qu
             img.thumbnail((max_width, max_height), Image.Resampling.LANCZOS)
 
             # Save the image with compression
-            img.save(output_path, "JPEG", quality=quality)
+            # img.save(output_path, "JPEG", quality=quality)
+            img.save(output_path, "PNG", optimize=True)
 
         print(f"Image successfully resized and saved to {output_path}")
 
@@ -29,8 +30,8 @@ def resize_and_compress_image(input_path, output_path, max_width, max_height, qu
 # Example usage
 if __name__ == "__main__":
     # Define input and output paths
-    input_image = "award.jpg"  # Replace with your input file
-    output_image = "award.jpg"  # Replace with your output file
+    input_image = "dp.png"  # Replace with your input file
+    output_image = "dp_out.png"  # Replace with your output file
 
     # Set maximum dimensions and quality level
     max_width = 1024  # Maximum width in pixels
